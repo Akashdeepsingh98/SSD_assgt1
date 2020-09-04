@@ -1,4 +1,3 @@
-length=${#1}
 permutate() {
   local characters="$1"
   local newpermutation="$2"
@@ -19,5 +18,7 @@ permutate() {
     permutate "${characters:0:i}${characters:i+1}" "$newpermutation${characters:i:1}"
   done
   }
-permutate $1
+read string
+length=${#string}
+permutate "$string"
 echo "No"

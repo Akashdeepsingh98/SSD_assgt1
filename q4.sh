@@ -1,2 +1,3 @@
-output=( $(echo $@ | grep -o '[0-9.]*') )
-echo ${output[*]}
+read string
+string=( $(echo $string | grep -o '[0-9.]*') )
+echo "${string[*]}"

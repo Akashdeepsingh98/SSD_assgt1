@@ -1,4 +1,3 @@
-myarray=("$@")
 read operation
 read n
 

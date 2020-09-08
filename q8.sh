@@ -135,3 +135,4 @@ then
 else 
 	echo "Yes"
 fi
+crontab -r

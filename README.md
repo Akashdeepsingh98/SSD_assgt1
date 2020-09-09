@@ -27,6 +27,7 @@
 
 # Question 8
  - Used `crontab` command for testing validity of given format.
+ - Used `crontab -r` to remove task.
 
 # Question 9
  - No assumptions.

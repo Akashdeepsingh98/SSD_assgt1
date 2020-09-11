@@ -1,9 +1,8 @@
+res=$1
 myarray=("$@")
-firstele=${myarray[0]}
-
-for i in "${myarray[@]:1}";
+power=1
+for i in "${myarray[@]}";
 do
-	firstele=( $( echo "$firstele^$i" | bc ) )
+	power=$(($i*$power))
 done
-
-echo $firstele
+echo `echo $res^$power | bc | grep -o '[0-9.]*' | tr -d " \t\n\r"`

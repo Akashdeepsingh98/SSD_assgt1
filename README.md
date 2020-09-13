@@ -30,7 +30,7 @@
  - Used `crontab -r` to remove task.
 
 # Question 9
- - No assumptions.
+ - Providing pure integer input only.
 
 # Question 10
  - All operations use `bc`

@@ -17,7 +17,7 @@ permutate() {
   do
     permutate "${characters:0:i}${characters:i+1}" "$newpermutation${characters:i:1}"
   done
-  }
+}
 read string
 length=${#string}
 permutate "$string"

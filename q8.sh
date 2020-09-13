@@ -4,5 +4,5 @@ then
 	echo "No"
 else 
 	echo "Yes"
+	crontab -r
 fi
-crontab -r

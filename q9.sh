@@ -1,5 +1,6 @@
 read number
 digits=( $( echo "$number" | tr -d ' ' ) )
+
 newdigits=""
 for (( i=${#digits}-1; i>=0; i-- ));
 do

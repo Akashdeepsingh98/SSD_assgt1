@@ -11,7 +11,7 @@
  - I have used `local` keyword so that function calls to `permutate()` have unique variables that are not shared.
 
 # Question 3 
- - **Only the first command** used in a command chain is counted, other commands executing with piping are not counted.
+ - **Only the first command** used in a chained sequence of commands are counted, other commands executing with piping are not counted.
 
 # Question 4
  - The script flattens **only numeric items** provided whether integer or decimal.
@@ -20,7 +20,7 @@
  - Used the `rev` command to reverse given string.
 
 # Question 6
- - Used double asterisk `**` for exponentiation.
+ - Used `bc` for exponentiation.
 
 # Question 7
  - No assumptions.
@@ -33,5 +33,4 @@
  - No assumptions.
 
 # Question 10
- - For division, decimal output does not work so I have used `bc` for that operation only.
- - Other operations are done using `expr` command.
+ - All operations use `bc`

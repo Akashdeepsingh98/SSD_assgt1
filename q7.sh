@@ -1,4 +1,4 @@
-ps -A | tr -s ' ' | cut -d' ' -f2 | tail -n +2 > pid.txt
+ps -au | tr -s ' ' | cut -d' ' -f2 | tail -n +2 > pid.txt
 read N
 maxlines=$( wc -l < pid.txt )
 if [ "$N" -gt "$maxlines" ]
